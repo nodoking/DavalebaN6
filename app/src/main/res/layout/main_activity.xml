@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/images"
+    tools:context=".ActivityMain">
+
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:hint="@string/email"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:hint="@string/first_name"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/lastNameEditText"
+        android:hint="@string/last_name"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:inputType="number"
+        android:hint="@string/age"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:hint="@string/address"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:onClick="save"
+        android:text="@string/save"
+        android:textSize="30sp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:targetApi="lollipop" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
